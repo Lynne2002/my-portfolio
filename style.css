@@ -166,3 +166,14 @@ a:hover{
 .hamburger-icon span:first-child{
     transform: none;
 }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    #navbar{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    
+}
