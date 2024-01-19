@@ -63,6 +63,10 @@ p{
     width: 30px;
     border-color: var(--purple);
 }
+.page-loader.fade-out{
+    opacity: 0;
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
 
 /*NAVIGATION*/
 .logo {
