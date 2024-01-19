@@ -1,0 +1,14 @@
+/*General style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85,85,85);
+}
