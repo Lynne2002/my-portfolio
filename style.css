@@ -87,6 +87,9 @@ p{
     opacity: 0;
     animation: fadeOut 0.5s ease-in-out forwards;
 }
+.hidden{
+    display: none !important;
+}
 
 /*NAVIGATION*/
 .logo {
