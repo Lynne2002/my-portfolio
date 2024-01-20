@@ -438,3 +438,42 @@ margin:0 0 10px;
 .section-spacing {
     margin-top: 500px;
   }
+
+  /*SKILLS SECTION*/
+  .div-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .div-box .skills-content{
+    flex: 1 1 20rem;
+  }
+  .skills-content h3{
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-bottom: .6rem;
+  }
+  .skills-content .ind-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+  }
+  .skills-content .ind-content span{
+    display: inline-flex;
+    width: 6rem;
+    height: 5rem;
+    border: .125rem solid #e02f6b;
+    border-radius: .3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: .3s ease;
+  }
+  .skills-content .ind-content span:hover{
+    box-shadow: 0 0 .6rem rgba(0,0,0,.2);
+  }
+  .skills-content .ind-content span i{
+    font-size: 3rem;
+    color: var(--pink);
+  }
