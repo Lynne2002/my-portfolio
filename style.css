@@ -121,7 +121,7 @@ a{
     text-decoration-color: white;
 }
 a:hover{
-    color: grey;
+    color: var(--pink);
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
