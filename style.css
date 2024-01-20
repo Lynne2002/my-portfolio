@@ -124,7 +124,7 @@ a:hover{
     color: var(--pink);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: var(--pink);
 }
 
 /*HAMBURGER MENU*/
